@@ -31,21 +31,4 @@ public class Transactions {
         myBalance = a.getBalance(acct);
         return myBalance;
     }
-
-
-/*
-    public static double deposit(double depo) {
-        double currBalance=checkBalance( acct);
-        double newBalance =currBalance+depo;
-        return newBalance;
-
-    }
-
-    public static double withdrawl(double withdraw) {
-        double currBalance=checkBalance();
-        double newBalance =currBalance-withdraw;
-        return newBalance;
-    }*/
-
-
 }
