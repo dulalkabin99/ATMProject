@@ -18,13 +18,14 @@ private HashMap<Integer , Double> hmap = new HashMap<Integer, Double>();
         hmap.put(1003, 245671.3);
 
     }
+    /*
 
 
     public int getAccountNum() {
         return accountNum;
     }
 
-    public void setAccountNum(int accountNum) {
+  public void setAccountNum(int accountNum) {
         this.accountNum = accountNum;
     }
     public int getPINNum() {
@@ -41,14 +42,14 @@ private HashMap<Integer , Double> hmap = new HashMap<Integer, Double>();
 
     public void setUserName(String userName) {
         this.userName = userName;
-    }
+    }*/
 
     public double getBalance(int acct) {
         balance = hmap.get(acct);
         return balance;
     }
 
-    public void setBalance(double balance) {
+    /*public void setBalance(double balance) {
         this.balance = balance;
-    }
+    }*/
 }

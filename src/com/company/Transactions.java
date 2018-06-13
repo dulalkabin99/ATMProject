@@ -12,7 +12,7 @@ public class Transactions {
     public void setAcct(int acct) {
         this.acct = acct;
     }
-    public int getAcct() {
+/*    public int getAcct() {
         return acct;
     }
 
@@ -21,8 +21,9 @@ public class Transactions {
     }
 
     public void setBalance(double balance) {
-        this.balance = balance;
-    }
+        this.balance = balance;*/
+
+
 
 
     public  double checkBalance(int acct) {
