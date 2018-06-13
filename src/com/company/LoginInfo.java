@@ -19,7 +19,8 @@ public class LoginInfo {
                 if (p == pin) {
                     return true;
                 } else return false;
-            }else return false;
+            }
+            else return false;
     }
 
 
